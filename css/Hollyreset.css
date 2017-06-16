@@ -20,10 +20,11 @@
 .fr {
   float: right;
 }
-.clearfix {
+/*.clearfix {
   overflow:auto;
   _height:1%
-}
+}*/
+.clearfix{overflow:hidden;_zoom:1;}
 .iphone-scroll {
   -webkit-overflow-scrolling:touch;
 }
