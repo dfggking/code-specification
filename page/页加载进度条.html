@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="https://cdn.bootcss.com/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
+		<script src="https://cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js"></script>
+	</head>
+	<body>
+	  <div>
+	    <h1 style="text-align: center;">页面不是重点，看顶部进度条</h1>
+	  </div>
+	  <script>
+	      NProgress.start();
+	      NProgress.inc();
+	      window.setTimeout(function(){
+	          NProgress.done();
+	      }, 4000);
+	  </script>
+	  
+	</body>
+</html>
